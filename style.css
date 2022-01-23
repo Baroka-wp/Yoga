@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&family=Titillium+Web:wght@200&display=swap');
+
+body {
+  background-color: #d7476b24;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------------------ HEADER ----------------------------- */
+header {
+  background-color: black;
+  overflow: hidden;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%
+}
+
+header img {
+  float:left;
+  width: 15%;
+}
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  float: left;
+  font-size: 1.1em;
+}
+
+header li a {
+  display: block;
+  text-align: center;
+  padding: 18px 15px;
+  color: antiquewhite;
+}
+
+/* ------------------------ About section ----------------------------- */
+section#about {
+  height: 300px;
+  padding-top: 70px;
+}
+section#about h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+}
+#hero {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* ------------------------ form  ----------------------------- */
+
+
+#form input {
+  border: none;
+  padding: 8px 5px;
+  margin: 2px 0 ;
+  font-size: 1.2em ;
+  font-family: "Advent Pro", sans-serif;
+}
+
+#Contact {
+  margin: 10px auto;
+  text-align: center;
+
+}
+/* ------------------------ services section ----------------------------- */
+
+#services {
+  /*background: url(images/baner.jpeg) no-repeat 50% 50% fixed;*/
+  background-color: #d083d39e;
+  background-size: cover;
+  height: auto;
+}
+
+#ServicesDescription {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 10%;
+}
+
+#services#video {
+  width: 50%;
+}
+
+#ServicesListe h3 {
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: black;
+}
+#ServicesListe p {
+  margin-top: 0px;
+}
+
+/* ------------------------ plans section ----------------------------- */
+
+section#plans {
+  width: 100%;
+}
+
+section #plansListe {
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section .plan {
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.plan h3 {
+  margin: 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.plan p {
+  margin: 0px;
+}
+
+/* ------------------------ footer ----------------------------- */
+footer {
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20%;
+  height: 40px;
+}
+
+#socialicons a{
+  font-size: 1.3em;
+  padding: 7px;
+}
+
+/* ------------------------ media query ----------------------------- */
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  header img {
+    width: 25%;
+     margin-left: 40%; 
+  }
+}
